@@ -1,0 +1,21 @@
+PS C:\Users\Owner\Desktop\kadai_005> cd C:\Users\Owner\Desktop\test
+
+
+----                 -------------         ------ ----                                                                                                                                                                                              
+d-----        2023/06/14     16:12                git_challenge                                                                                                                                                                                     
+
+Initialized empty Git repository in C:/Users/Owner/Desktop/test/.git/
+PS C:\Users\Owner\Desktop\test> cd C:\Users\Owner\Desktop\test\git_challenge
+Initialized empty Git repository in C:/Users/Owner/Desktop/test/git_challenge/.git/
+PS C:\Users\Owner\Desktop\test\git_challenge> git add hello_world.txt
+PS C:\Users\Owner\Desktop\test\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 7f99237] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\Owner\Desktop\test\git_challenge> git add hello_world.txt
+PS C:\Users\Owner\Desktop\test\git_challenge> git commit -m "日本語訳を追記"
+[main 1415949] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\Owner\Desktop\test\git_challenge> git log --oneline
+1415949 (HEAD -> main) 日本語訳を追記
+7f99237 hello_world.txtを追加
